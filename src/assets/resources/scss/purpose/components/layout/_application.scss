@@ -2,6 +2,14 @@
 // Application layout
 //
 
+body {
+  &.ready {
+    .application {
+      opacity: 1;
+    }
+  }
+}
+
 .application {
     opacity: 0;
 

@@ -33,7 +33,10 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/purpose.core.js",
+              "src/assets/js/purpose.js"
+            ]
           },
           "configurations": {
             "production": {
