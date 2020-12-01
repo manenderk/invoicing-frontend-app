@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AdminContainerComponent } from './admin-container/admin-container.component';
 import { RouterModule, Routes } from '@angular/router';
+import { AdminSectionsModule } from './admin-sections/admin-sections.module';
 
 const routes: Routes = [
   {
@@ -14,7 +15,8 @@ const routes: Routes = [
   declarations: [AdminContainerComponent],
   imports: [
     CommonModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
+    AdminSectionsModule
   ]
 })
 export class AdminModule { }
